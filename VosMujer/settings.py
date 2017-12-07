@@ -36,8 +36,7 @@ DEBUG = True
 # A list of strings representing the host/domain names that this Django site can serve.
 # If you are unsure, just enter here your domain name, eg. ['mysite.com', 'www.mysite.com']
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['vosmujer.herokuapp.com', '127.0.0.1']
 
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
