@@ -28,7 +28,6 @@ PySocks==1.6.7
 pytz==2017.3
 requests==2.18.4
 requests-futures==0.9.7
-ruamel-yaml==0.11.14
 six==1.10.0
 sqlparse==0.2.4
 Unidecode==0.4.21
