@@ -11,11 +11,14 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 
 import os
-
+from django.utils.translation import ugettext
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+LOCALE_PATHS = (
+    os.path.join(BASE_DIR, 'locale/'),
+)
 
 # Define placeholder gettext function
 # This function will mark strings in settings visible to makemessages
@@ -93,7 +96,13 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/1.11/topics/i18n/
 
-LANGUAGE_CODE = 'es-us'
+ugettext = lambda s: s
+
+LANGUAGES = (
+    ('es', ugettext('Spanish')),
+)
+
+LANGUAGE_CODE = 'es'
 
 TIME_ZONE = 'UTC'
 
@@ -167,10 +176,12 @@ CSRF_FAILURE_VIEW = 'misago.core.errorpages.csrf_failure'
 
 INSTALLED_APPS = [
     # Misago overrides for Django core feature
+    'VosMujer',
     'misago',
     'misago.users',
 
     # Django apps
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -179,6 +190,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
 
     # 3rd party apps used by Misago
     'debug_toolbar',
@@ -218,6 +230,7 @@ MIDDLEWARE = [
 
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.locale.LocaleMiddleware',  #this is set for languages
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
