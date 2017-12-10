@@ -5765,7 +5765,7 @@ msgstr ""
 
 #: users/validators.py:29
 msgid "This e-mail address is not available."
-msgstr ""
+msgstr "Esta dirección de correo electrónico no está disponible."
 
 #: users/validators.py:56
 msgid "This username is not available."

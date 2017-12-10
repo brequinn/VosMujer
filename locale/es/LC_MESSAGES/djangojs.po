@@ -365,7 +365,7 @@ msgstr ""
 
 #: static/misago/js/misago.js:4
 msgid "Search returned no results."
-msgstr ""
+msgstr "La búsqueda no arrojó resultados."
 
 #: static/misago/js/misago.js:4 static/misago/js/misago.js:13
 msgid "Search"
@@ -609,23 +609,23 @@ msgstr[1] ""
 
 #: static/misago/js/misago.js:6
 msgid "Entered password is very weak."
-msgstr ""
+msgstr "La contraseña introducida es muy débil."
 
 #: static/misago/js/misago.js:6
 msgid "Entered password is weak."
-msgstr ""
+msgstr "La contraseña ingresada es débil."
 
 #: static/misago/js/misago.js:6
 msgid "Entered password is average."
-msgstr ""
+msgstr "La contraseña ingresada es promedio."
 
 #: static/misago/js/misago.js:6
 msgid "Entered password is strong."
-msgstr ""
+msgstr "La contraseña ingresada es fuerte."
 
 #: static/misago/js/misago.js:6
 msgid "Entered password is very strong."
-msgstr ""
+msgstr "La contraseña introducida es muy fuerte."
 
 #: static/misago/js/misago.js:6
 msgid "Add choice"
