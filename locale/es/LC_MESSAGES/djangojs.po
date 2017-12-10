@@ -1648,26 +1648,28 @@ msgstr ""
 
 #: static/misago/js/misago.js:13
 msgid "Username"
-msgstr ""
+msgstr "Nombre de usuario"
 
 #: static/misago/js/misago.js:13 static/misago/js/misago.js:16
 #: static/misago/js/misago.js:17
 msgid "E-mail"
-msgstr ""
+msgstr "Correo electrónico"
 
 #: static/misago/js/misago.js:13 static/misago/js/misago.js:14
 msgid "Password"
-msgstr ""
+msgstr "Contraseña"
 
 #: static/misago/js/misago.js:13
 msgid "Register account"
-msgstr ""
+msgstr "Registrar cuenta"
 
 #: static/misago/js/misago.js:13
 msgid ""
 "%(username)s, your account has been created but you need to activate it "
 "before you will be able to sign in."
 msgstr ""
+"%(username)s, su cuenta ha sido creada pero necesita activarla "
+"antes de que puedas iniciar sesión."
 
 #: static/misago/js/misago.js:13
 msgid ""
