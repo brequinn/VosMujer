@@ -1756,7 +1756,7 @@ msgstr ""
 
 #: static/misago/js/misago.js:14
 msgid "Enter at least two characters to search threads."
-msgstr ""
+msgstr "Ingrese al menos dos caracteres para buscar."
 
 #: static/misago/js/misago.js:14 static/misago/js/misago.js:19
 msgid "Show more"
@@ -2214,11 +2214,11 @@ msgstr ""
 
 #: static/misago/js/misago.js:19
 msgid "You are browsing as guest."
-msgstr ""
+msgstr "Usted está navegando como invitado."
 
 #: static/misago/js/misago.js:19
 msgid "Sign in or register to start and participate in discussions."
-msgstr ""
+msgstr "Inicie sesión o regístrese para comenzar y participar en las discusiones."
 
 #: static/misago/js/misago.js:19
 msgid "You have unread private threads."
