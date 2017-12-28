@@ -1783,11 +1783,11 @@ msgstr ""
 
 #: static/misago/js/misago.js:14
 msgid "Username or e-mail"
-msgstr ""
+msgstr "Nombre de usuario o correo electrónico"
 
 #: static/misago/js/misago.js:14
 msgid "Forgot password?"
-msgstr ""
+msgstr "¿Se te olvidó tu contraseña?"
 
 #: static/misago/js/misago.js:14
 msgid "Change title"

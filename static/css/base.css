@@ -1,0 +1,57 @@
+h1{
+  color: #5C3BFF;
+  font-family: ModernLove;
+  font-size: 45px;
+}
+
+p{
+  color: #5C3BFF;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 18px;
+}
+
+@font-face {
+    font-family: ModernLove;
+    src: url("/static/simplesocial/font/Resistenza - ModernLove-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: ModernLove;
+    font-weight: bold;
+    src: url("/static/simplesocial/font/Resistenza - ModernLove-Regular.otf") format("opentype");
+}
+
+#logo {
+  font-family: ModernLove;
+  color: #6600ff;
+  font-size: 22px;
+}
+
+#topRightIndex{
+  font-family: ModernLove;
+  color: #52D2FE;
+  font-size: 22px;
+}
+
+#ButtonEmpiezo{
+  background-color: #52D2FE;
+  width: 200px;
+  height:50px;
+  font-size: 20px;
+  position: fixed;
+  top: 280px;
+  left: 550px;
+  font-family: 'Open Sans',sans-serif;
+}
+
+#tagline1{
+  position: fixed;
+  top: 150px;
+  right: 380px;
+}
+
+#tagline2{
+  position: fixed;
+  top: 220px;
+  right: 400px;
+}
