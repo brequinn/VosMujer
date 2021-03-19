@@ -10,7 +10,7 @@ django-crispy-forms==1.6.1
 django-debug-toolbar==1.9.1
 django-htmlmin==0.10.0
 django-mptt==0.8.7
-djangorestframework==3.6.4
+djangorestframework==3.11.2
 fake-factory==9999.9.9
 foreman==0.9.7
 gunicorn==19.7.1
